@@ -1,17 +1,20 @@
 <script>
 import Navbar from '../components/Navbar.vue';
+import ProfileCard from '../components/ProfileCard.vue'
 export default {
   components: {
-    Navbar
+    Navbar,
+    ProfileCard
   }
 }
 </script>
 
 <template>
-  <header>
-    <Navbar />
+  <header class="sticky top-0 z-50">
+    <Navbar  />
   </header>
-  <main class="bg-red-500 h-">
-
+  <div class="h-[74px] w-full absolute top-0 bg-primary-gray-2"></div>
+  <main class="bg-primary-gray-2 relative">
+    <ProfileCard />
   </main>
 </template>
