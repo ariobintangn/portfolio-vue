@@ -1,20 +1,24 @@
 <script>
 import Navbar from '../components/Navbar.vue';
 import ProfileCard from '../components/ProfileCard.vue'
+import FeaturedWork from '../components/FeaturedWork.vue';
+
 export default {
   components: {
     Navbar,
-    ProfileCard
+    ProfileCard,
+    FeaturedWork
   }
 }
 </script>
 
 <template>
   <header class="sticky top-0 z-50">
-    <Navbar  />
+    <Navbar />
   </header>
   <div class="h-[74px] w-full absolute top-0 bg-primary-gray-2"></div>
   <main class="bg-primary-gray-2 relative">
     <ProfileCard />
+    <FeaturedWork />
   </main>
 </template>
