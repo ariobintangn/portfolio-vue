@@ -2,12 +2,14 @@
 import Navbar from '../components/Navbar.vue';
 import ProfileCard from '../components/ProfileCard.vue'
 import FeaturedWork from '../components/FeaturedWork.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   components: {
     Navbar,
     ProfileCard,
-    FeaturedWork
+    FeaturedWork,
+    Footer
   }
 }
 </script>
@@ -21,4 +23,7 @@ export default {
     <ProfileCard />
     <FeaturedWork />
   </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>

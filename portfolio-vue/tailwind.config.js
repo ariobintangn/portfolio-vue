@@ -6,7 +6,8 @@ module.exports = {
     './src/views/HomeView.vue',
     './src/components/Navbar.vue',
     './src/components/ProfileCard.vue',
-    './src/components/FeaturedWork.vue'
+    './src/components/FeaturedWork.vue',
+    './src/components/Footer.vue'
   ],
   theme: {
     extend: {
@@ -14,15 +15,15 @@ module.exports = {
         'button-gray': '#9D9D9D',
         'primary-gray-1': '#323232B2',
         'primary-gray-2': '#202020',
+        'off-white': '#DEDEDE'
       },
       textColor: {
         'off-white': '#DEDEDE',
         'gray-1': '#959595'
-
       },
       fontFamily: {
-        'niramin': ['Niramit', 'Sans-serif'],
-        'bv': ['Baskervville', 'serif'],
+        niramin: ['Niramit', 'Sans-serif'],
+        bv: ['Baskervville', 'serif']
       }
     }
   },
