@@ -12,10 +12,15 @@ export default {
         </div>
 
         <div class="w-full flex flex-col justify-center items-center">
-            <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
-            <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
-            <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
-            <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
+            <router-link to="/work-view">
+                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
+            </router-link>
+            <router-link to="/work-view">
+                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
+            </router-link>
+            <router-link to="/work-view">
+                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
+            </router-link>
         </div>
     </div>
 </template>
