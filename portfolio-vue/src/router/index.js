@@ -11,9 +11,10 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/work-view',
+      path: '/work-view/:id',
       name: 'work-view',
-      component: WorkView
+      component: WorkView,
+      props: true
     },
   ]
 })
