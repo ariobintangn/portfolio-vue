@@ -11,10 +11,14 @@ export default {
 
 <template>
     <div class="flex flex-col justify-center">
-        <img src="../assets/irwan-claudia.png" alt="irwan-claudia image" class="h-[476px] object-cover">
-        <div class="px-[24px] py-[56px]">
-            <div class="flex flex-row">
-                    <a href="https://irwanclaudia.com/" target="_blank" class="text-off-white  text-opacity-50 mr-2 mb-[12px] hover:underline">Irwan and Claudia </a> 
+        <a href="https://irwanclaudia.com/" target="_blank">
+            <img src="../assets/irwan-claudia2.png" alt="irwan-claudia image" class="h-[476px] w-full object-cover">
+        </a>
+        <div class="px-[24px] py-[56px] flex flex-col lg:flex-row lg:items-center">
+            <div class="lg:w-1/2">
+                <div class="flex flex-row">
+                    <a href="https://irwanclaudia.com/" target="_blank"
+                        class="text-off-white  text-opacity-50 mr-2 mb-[12px] hover:underline">IRWAN AND CLAUDIA </a>
                     <svg width="16px" height="16px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3"
                         stroke="#FFFFFFcc" fill="none">
                         <path
@@ -22,8 +26,29 @@ export default {
                         <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                         <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
                     </svg>
+                </div>
+                <p class="text-off-white text-xl font-bold">A Custom made wedding invitation website with intricate
+                    responsive design and animation</p>
             </div>
-            <p class="text-off-white">A Custom made wedding invitation website where you can</p>
+            
+            <div class="mt-[80px] flex flex-wrap justify-center h-[300px]">
+                <div class="w-1/2">
+                    <h1 class="text-off-white  text-opacity-50 mr-2 mb-[12px]">CLIENT </h1>
+                    <p class="text-off-white text-xl font-bold">Private</p>
+                </div>
+                <div class="0 w-1/2">
+                    <h1 class="text-off-white  text-opacity-50 mr-2 mb-[12px]">ROLE </h1>
+                    <p class="text-off-white text-xl font-bold">Front-end Engineer</p>
+                </div>
+                <div class=" w-1/2">
+                    <h1 class="text-off-white  text-opacity-50 mr-2 mb-[12px]">INDUSTRY</h1>
+                    <p class="text-off-white text-xl font-bold">Event Planning</p>
+                </div>
+                <div class="00 w-1/2">
+                    <h1 class="text-off-white  text-opacity-50 mr-2 mb-[12px]">DURATION</h1>
+                    <p class="text-off-white text-xl font-bold">2 Months</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>

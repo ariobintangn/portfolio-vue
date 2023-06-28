@@ -1,6 +1,10 @@
 <script>
 export default {
-
+    data(){
+        return {
+                images: ['./src/assets/irwan-claudia2.png', './src/assets/met-digital.png']
+        }
+    }
 }
 </script>
 
@@ -11,16 +15,11 @@ export default {
             <h1 class="text-off-white">FEATURED WORK</h1>
         </div>
 
-        <div class="w-full flex flex-col justify-center items-center">
+        <div class="w-full flex flex-col justify-center items-center" v-for="(image, index) in images" :key="index">
             <router-link to="/work-view">
-                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
-            </router-link>
-            <router-link to="/work-view">
-                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
-            </router-link>
-            <router-link to="/work-view">
-                <div> <img src="../assets/irwan-claudia.png" alt="1rst project picture" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
+                <div> <img :src="image" alt="project image" class="hover:scale-125 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px]"></div>
             </router-link>
         </div>
+        
     </div>
 </template>
