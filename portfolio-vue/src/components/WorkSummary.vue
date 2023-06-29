@@ -11,8 +11,19 @@ export default {
                     client: 'Private',
                     role: 'Front-end Engineer',
                     industry: 'Event Planning',
-                    duration: '2 Months',
-                    techUsed: ["../src/assets/vue.png", "../src/assets/tailwind.png", "../src/assets/pinia.png", '../src/assets/github.png'],
+                    duration: '1 Months',
+                    techUsed: [" ../src/assets/node js.png"," ../src/assets/javascript.png","../src/assets/vue.png", "../src/assets/tailwind.png", "../src/assets/pinia.png", '../src/assets/github.png'],
+                },
+                {
+                    name: 'Company Clone',
+                    url: 'https://company-clone.web.app/register',
+                    description: 'A clone of a company to hone my skills in frontend engineering. I used ChartJs to represent data and build visually interesting charts.',
+                    image: "../src/assets/company-clone.png",
+                    client: 'Finance Company',
+                    role: 'Frontend Engineer',
+                    industry: 'HR and IT services',
+                    duration: '1 Week',
+                    techUsed: [" ../src/assets/node js.png"," ../src/assets/javascript.png"," ../src/assets/vue.png", "../src/assets/tailwind.png", "../src/assets/pinia.png", '../src/assets/chartjs.png', '../src/assets/github.png'],
                 },
                 {
                     name: 'MET Museum',
@@ -46,18 +57,18 @@ export default {
 </script>
 
 <template>
-    <div class="flex flex-col justify-center">
-        <a :href="website[id].url" target="_blank">
-            <img :src="website[id].image" alt="image" class="h-[476px] lg:h-full w-full object-cover">
+    <div class="flex flex-col lg:flex-row justify-center lg:h-screen">
+        <a :href="website[id].url" target="_blank" class="lg:w-1/2">
+            <img :src="website[id].image" alt="image" class="h-[476px] lg:h-full w-full object-cover opacity-80">
         </a>
-        <div class="px-[24px] py-[56px] flex flex-col lg:flex-row lg:items-center">
+        <div class="px-[24px] py-[56px] lg:px-20 flex flex-col lg:flex lg:items-center lg:justify-center">
 
-            <div class="flex flex-col">
+            <div class="flex flex-col lg:border-b lg:pb-12 lg:border-[#dadada] lg:items-center">
 
                 <div class="lg:w-1/2">
                     <div class="flex flex-row">
                         <a :href="website[id].url" target="_blank"
-                        class="text-off-white  text-opacity-50 mr-2 mb-[12px] hover:underline">{{ website[id].name }} </a>
+                        class="text-off-white  text-opacity-50 mr-2 mb-[24px] hover:underline text-2xl font-bold">{{ website[id].name }} </a>
                         <svg width="16px" height="16px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3"
                         stroke="#FFFFFFcc" fill="none">
                         <path
@@ -81,7 +92,7 @@ export default {
 
             </div>
                 
-            <div class="mt-[40px] flex flex-wrap justify-center h-[300px]">
+            <div class="mt-[40px] flex flex-wrap lg:pl-12 justify-center h-[300px] lg:bg-gradient-to-b lg:from-transparent lg:to-[#323232B2]  lg:bg-opacity-20">
                 
                 <div class="w-1/2">
                     <h1 class="text-off-white  text-opacity-50 mr-2 mb-[12px]">CLIENT </h1>
