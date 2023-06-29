@@ -16,7 +16,10 @@ const router = createRouter({
       component: WorkView,
       props: true
     },
-  ]
+  ],
+  scrollBehavior(){
+    return {top:0}
+  }
 })
 
 export default router
