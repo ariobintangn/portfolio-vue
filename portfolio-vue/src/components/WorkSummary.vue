@@ -36,6 +36,17 @@ export default {
                     duration: '2 Days',
                     techUsed: [" ../src/assets/node js.png"," ../src/assets/javascript.png"," ../src/assets/vue.png", "../src/assets/tailwind.png", "../src/assets/pinia.png", "../src/assets/midtrans.jpg", '../src/assets/github.png'],
                 },
+                {
+                    name: 'Vintager Store',
+                    url: 'https://vintager-store-client.firebaseapp.com/',
+                    description: 'My personal project during studying at Hacktiv8. This is a fullstack application which utilizes React and PostgreSQL for its database.',
+                    image: "../src/assets/vintager-store.png",
+                    client: 'Hacktiv8',
+                    role: 'Fullstack Engineer',
+                    industry: 'Music and e-commerce',
+                    duration: '1 Week',
+                    techUsed: [" ../src/assets/node js.png"," ../src/assets/javascript.png"," ../src/assets/vue.png", "../src/assets/tailwind.png", "../src/assets/pinia.png", "../src/assets/midtrans.jpg", '../src/assets/github.png'],
+                },
             ],
         };
     },
