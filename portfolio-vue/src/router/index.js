@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import WorkView from '../views/WorkView.vue'
+import HomeView from '../views/HomeView.vue';
+import NotFound from '../views/404View.vue';
+import WorkView from '../views/WorkView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,9 +17,14 @@ const router = createRouter({
       component: WorkView,
       props: true
     },
+    {
+      path: '/:catchAll(.*)',
+      name: '404',
+      component: NotFound
+    },
   ],
-  scrollBehavior(){
-    return {top:0}
+  scrollBehavior() {
+    return { top: 0 }
   }
 })
 

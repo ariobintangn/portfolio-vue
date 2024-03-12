@@ -10,6 +10,8 @@ module.exports = {
     './src/components/FeaturedWork.vue',
     './src/components/Footer.vue',
     './src/components/WorkSummary.vue',
+    './*',
+    './src/**/*.{vue,html,js}'
   ],
   theme: {
     extend: {

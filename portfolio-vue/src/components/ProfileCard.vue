@@ -7,7 +7,7 @@ export default {
 <template>
     <div class="flex flex-col lg:flex-row-reverse lg:justify-between  lg:px-24 lg:py-12  lg:items-center lg:mb-24">
         <div class="flex justify-center items-center h-[350px] lg:w-1/2">
-            <img src="../assets/profilePic.jpeg" alt="profile picture" class=" h-[240px] w-[240px] lg:h-[400px] lg:w-[400px] rounded-full">
+            <img src="../assets/profilePic.jpeg" alt="profile picture" class=" h-[240px] w-[240px] lg:h-[400px] lg:w-[400px] rounded-full object-cover">
         </div>
 
         <div class="lg:my-12 text-center items-center align-center object-center">

@@ -2,25 +2,28 @@
 export default {
     data() {
         return {
-            images: [{ image: './src/assets/irwan-claudia2.png', name: 'Irwan Claudia' }, { image: './src/assets/company-clone.png', name: 'Company Clone' }, { image: './src/assets/met-digital.png', name: 'MET Digital' },{ image: './src/assets/vintager-store.png', name: 'Vintager Store' }]
+            images: [
+                { image: './src/assets/cms.png', name: 'Coin Market Score' }, { image: './src/assets/irwan-claudia2.png', name: 'Irwan Claudia' }, { image: './src/assets/company-clone.png', name: 'Company Clone' }, { image: './src/assets/met-digital.png', name: 'MET Digital' }, { image: './src/assets/vintager-store.png', name: 'Vintager Store' },
+
+            ],
         }
     },
     methods: {
         changePage(index) {
             this.$router.push(`/project/${index}`)
-        }
+        },
     }
 }
 </script>
 
 <template>
     <div class="px-[24px] lg:px-24">
-        <div class="flex justify-start mb-[23px]">
-            <img src="../assets/Arrow 1.svg" class="mr-3" alt="arrow down">
+        <div class="flex justify-start mb-[33px]">
+            <img src="../assets/Arrow-1.svg" class="mr-3" alt="arrow down">
             <h1 class="text-off-white">MY PROJECTS</h1>
         </div>
         <div class="lg:grid lg:grid-cols-2">
-            <div class="w-full flex flex-col justify-center items-center text-off-white text-end"
+            <div class="w-full flex flex-col  justify-center items-center text-off-white text-end"
                 v-for="(image, index) in images" :key="index">
                 <div @click="changePage(index)" class="mb-[15px]">
                     <h1

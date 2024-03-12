@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div class="lg:px-24 lg:py-8">
+  <div class="xl:px-24 lg:py-8">
     <ProfileCard />
     <FeaturedWork />
   </div>
