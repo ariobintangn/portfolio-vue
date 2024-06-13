@@ -1,9 +1,18 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+import ProfileCard from '../components/ProfileCard.vue'
+import FeaturedWork from '../components/FeaturedWork.vue';
+
+export default {
+  components: {
+    ProfileCard,
+    FeaturedWork,
+  }
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="container mx-auto">
+    <ProfileCard />
+    <FeaturedWork />
+  </div>
 </template>
