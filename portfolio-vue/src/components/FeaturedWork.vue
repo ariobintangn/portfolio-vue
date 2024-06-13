@@ -44,7 +44,7 @@ export default {
 <template>
   <div class="px-[24px]">
     <div class="flex justify-start mb-[23px]">
-      <img src="../assets/Arrow 1.svg" class="mr-3" alt="arrow down" />
+      <img src="../assets/arrow-1.svg" class="mr-3" alt="arrow down" />
       <h1 class="text-off-white">MY PROJECTS</h1>
     </div>
 
