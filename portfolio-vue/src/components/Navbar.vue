@@ -16,7 +16,7 @@ export default {
     <div class="h-[74px] from-[#323232B2] to-[#202020] bg-gradient-to-b items-center flex flex-row justify-between backdrop-blur-sm">
         <router-link to="/">
             <div class="m-[28px]">
-                <img src="../assets/ab.ico" alt="logo" class="h-[31px]">
+                <img src="../assets/icons/logo.png" alt="logo" class="h-[31px]">
             </div>
         </router-link>
         <div class="m-[28px]" @click="toggleMenu()" v-if="!showMenu"><img src="../assets/ham.svg" alt="ham svg"></div>

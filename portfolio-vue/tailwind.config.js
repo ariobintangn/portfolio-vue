@@ -10,16 +10,14 @@ module.exports = {
     './src/components/FeaturedWork.vue',
     './src/components/Footer.vue',
     './src/components/WorkSummary.vue',
+    './src/**.**'
   ],
   theme: {
     extend: {
-      backgroundColor: {
+      colors: {
         'button-gray': '#9D9D9D',
         'primary-gray-1': '#323232B2',
         'primary-gray-2': '#202020',
-        'off-white': '#DEDEDE'
-      },
-      textColor: {
         'off-white': '#DEDEDE',
         'gray-1': '#959595'
       },

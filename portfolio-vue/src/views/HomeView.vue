@@ -11,6 +11,8 @@ export default {
 </script>
 
 <template>
+  <div class="container mx-auto">
     <ProfileCard />
     <FeaturedWork />
+  </div>
 </template>
