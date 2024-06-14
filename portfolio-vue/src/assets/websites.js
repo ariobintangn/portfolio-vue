@@ -4,6 +4,8 @@ import cmsindonesia from './cmsindonesia.png'
 import cmsindonesia2 from './cmsindonesia2.png'
 import companyClone from './company-clone.png'
 import irwanClaudia from './irwan-claudia2.png'
+import valentine from './valentine.png'
+import valentine2 from './valentine2.png'
 import metDigital from './met-digital.png'
 import node from './node.png'
 import javascript from './javascript.png'
@@ -62,6 +64,22 @@ const websites = [
     duration: '1 Week',
     techUsed: [node, javascript, vue, tailwind, pinia, github, chartjs],
     techUsedName: ["Node JS", "Javascript", "Vue", "Tailwind", "Pinia", "Github","Chart JS"]
+  },
+  {
+    name: 'Valentine Gift',
+    year: 2024,
+    url: 'https://valentine-gift-for-hana.web.app/',
+    description:
+      `Valentine gift for my wife on 2024, just having a little fun with this project. The "yes" button will become bigger if you press the "do'h" button. I did my best to consistently designed everything with The Simpsons styling`,
+    short_description: 'Valentine gift for my wife on February 2024',
+    image: valentine,
+    image2: valentine2,
+    client: 'Private',
+    role: 'Frontend Engineer',
+    industry: '-',
+    duration: '1 Day',
+    techUsed: [node, javascript, vue, tailwind,github],
+    techUsedName: ["Node JS", "Javascript", "Vue", "Tailwind", "Github"]
   },
   {
     name: 'IRWAN AND CLAUDIA (DOWN)',

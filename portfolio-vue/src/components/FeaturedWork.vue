@@ -4,25 +4,6 @@ import websites from '../assets/websites';
 export default {
   data() {
     return {
-      images: [
-        {
-          image: './src/assets/pikkat.png',
-          name: 'Pikkat',
-          short_description: 'Company profile for Pikkat, a collaboration with Smartek'
-        },
-        {
-          image: './src/assets/cmsindonesia.png',
-          name: 'CoinMarketScore ID',
-          short_description: 'A collaboration with Singaporean based company, Vallidge PTE.'
-        },
-        { image: './src/assets/irwan-claudia2.png', name: 'Irwan Claudia', short_description: '' },
-        {
-          image: './src/assets/company-clone.png',
-          name: 'Company Clone',
-          short_description: `Clone of a company's dashboard with graphs and charts`
-        },
-        { image: './src/assets/met-digital.png', name: 'MET Digital', short_description: '' }
-      ],
       websites
     }
   },
