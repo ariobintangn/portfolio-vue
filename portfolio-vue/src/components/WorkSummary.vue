@@ -33,9 +33,9 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-screen">
+  <div class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-screen max-h-screen">
     <a :href="websites[id].url" target="_blank" class="lg:col-span-5">
-      <img :src="websites[id].image2" alt="image" class="h-[476px] lg:h-full w-full object-cover" />
+      <img :src="websites[id].image2" alt="image" class="h-[476px] lg:h-screen w-full object-cover" />
     </a>
     <div
       class="px-[24px] py-[56px] lg:px-20 flex flex-col lg:col-span-7 lg:flex lg:items-center lg:justify-center"
