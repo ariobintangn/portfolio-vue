@@ -5,7 +5,7 @@ export default {
       const email = 'ariobintangn@gmail.com'
       const subject = encodeURIComponent('Hello Ario!')
       const body = encodeURIComponent(
-        `Woohoo! you're hired! (hopefully this is what you'll write 😁)`
+        `Hi, we would like to inform you of a front-end developer position at our company!`
       ) // You can set a default body if needed
       const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`
       window.open(mailtoLink, '_blank')

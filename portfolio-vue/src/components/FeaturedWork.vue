@@ -48,52 +48,6 @@ export default {
       <h1 class="text-off-white">MY PROJECTS</h1>
     </div>
 
-    <!-- <div class="w-full flex flex-row justify-evenly">
-      <div>
-        <div
-          class="w-full flex flex-col justify-center items-center text-off-white text-end"
-          v-for="(image, index) in images"
-          :key="index"
-        >
-          <div @click="changePage(index)" class="mb-[15px]">
-            <h1
-              class="pr-[48px] pt-[6px] mr-[px] ml-36 h-10 bg-gradient-to-l from-transparent to-[#323232B2] bg-opacity-40 text-lg"
-            >
-              {{ image.name }}
-            </h1>
-
-            <img
-              :src="image.image"
-              alt="project image"
-              class="hover:scale-110 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px] opacity-80 hover:opacity-100"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="h-[12rem]"></div>
-        <div
-          class="w-full flex flex-col justify-center items-center text-off-white text-end"
-          v-for="(image, index) in images"
-          :key="index"
-        >
-          <div @click="changePage(index)" class="mb-[15px]">
-            <h1
-              class="pr-[48px] pt-[6px] mr-[px] ml-36 h-10 bg-gradient-to-l from-transparent to-[#323232B2] bg-opacity-40 text-lg"
-            >
-              {{ image.name }}
-            </h1>
-
-            <img
-              :src="image.image"
-              alt="project image"
-              class="hover:scale-110 duration-500 h-[600px] w-[366px] object-cover p-[24px] rounded-[36px] opacity-80 hover:opacity-100"
-            />
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div
       class="grid md:grid-cols-2 lg:grid-cols-3 text-5xl text-white items-center gap-6 gap-y-8 py-12"
     >
@@ -112,7 +66,7 @@ export default {
           </p>
 
           <img :src="website.image" class="h-[200px] object-cover rounded-lg" />
-          <p class="text-[12px] lg:text-[16px] text-justify p-3 bg-white/20 group-hover:bg-gradient-to-br group-hover:from-white/30 group-hover:from-20% hover:to-transparent duration-200">
+          <p class="text-[12px] lg:text-[16px] text-justify p-3 bg-white/20 group-hover:bg-gradient-to-br group-hover:from-white/30 group-hover:from-20% hover:to-transparent duration-200 rounded-sm">
             {{ website.short_description }}
           </p>
         </div>

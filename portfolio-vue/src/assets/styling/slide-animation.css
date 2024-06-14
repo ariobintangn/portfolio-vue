@@ -1,0 +1,26 @@
+.sidebar {
+    position: absolute;
+    right: -200px; /* Initially off-screen */
+    top: 0;
+    transition: right 3s ease; /* Smooth transition for the right property */
+  }
+  
+  .sidebar.show {
+    right: 0; /* Target on-screen position */
+  }
+  
+  /* Styles for the close button */
+  .close-button {
+    margin: 20px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    cursor: pointer;
+  }
+  
