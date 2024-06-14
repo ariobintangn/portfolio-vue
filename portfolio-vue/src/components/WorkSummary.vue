@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-screen max-h-screen">
+  <div class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-scre">
     <a :href="websites[id].url" target="_blank" class="lg:col-span-5">
       <img :src="websites[id].image2" alt="image" class="h-[476px] lg:h-screen w-full object-cover" />
     </a>
@@ -84,7 +84,7 @@ export default {
       </div>
 
       <div
-        class="mt-[40px] flex flex-wrap lg:pl-12 justify-center h-[300px] lg:bg-gradient-to-b lg:from-transparent lg:to-[#323232B2] lg:bg-opacity-20"
+        class="mt-[40px] flex flex-wrap lg:pl-12 justify-center lg:bg-gradient-to-b lg:from-transparent lg:to-[#323232B2] lg:bg-opacity-20"
       >
         <div class="w-1/2">
           <h1 class="text-off-white text-opacity-50 mr-2 mb-[12px]">CLIENT</h1>
