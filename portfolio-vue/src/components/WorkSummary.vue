@@ -1,41 +1,48 @@
 <script>
-import websites from '../assets/websites'
+import websites from "../assets/websites";
 export default {
   data() {
     return {
-      websites
-    }
+      websites,
+    };
   },
   computed: {
     id() {
-      return this.$route.params.id
-    }
+      return this.$route.params.id;
+    },
   },
   methods: {
     getFileName(tech) {
-      const fileName = tech.split('/').pop() // Extract the file name from the path
-      const imageName = fileName.split('.')[0] // Remove the file extension
-      const desiredString = imageName.charAt(0).toUpperCase() + imageName.slice(1).toLowerCase()
+      const fileName = tech.split("/").pop(); // Extract the file name from the path
+      const imageName = fileName.split(".")[0]; // Remove the file extension
+      const desiredString =
+        imageName.charAt(0).toUpperCase() + imageName.slice(1).toLowerCase();
 
-      return desiredString
+      return desiredString;
     },
     removeAfterHyphen(str) {
-      const hyphenIndex = str.indexOf('-')
+      const hyphenIndex = str.indexOf("-");
       if (hyphenIndex === -1) {
         // If there is no hyphen in the string, return the original string
-        return str
+        return str;
       }
       // Return the substring before the hyphen
-      return str.substring(0, hyphenIndex)
-    }
-  }
-}
+      return str.substring(0, hyphenIndex);
+    },
+  },
+};
 </script>
 
 <template>
-  <div class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-scre">
+  <div
+    class="flex flex-col lg:grid lg:grid-flow-col lg:grid-cols-12 justify-center lg:h-screen"
+  >
     <a :href="websites[id].url" target="_blank" class="lg:col-span-5">
-      <img :src="websites[id].image2" alt="image" class="h-[476px] lg:h-screen w-full object-cover" />
+      <img
+        :src="websites[id].image2"
+        alt="image"
+        class="h-[476px] lg:h-screen w-full object-cover"
+      />
     </a>
     <div
       class="px-[24px] py-[56px] lg:px-20 flex flex-col lg:col-span-7 lg:flex lg:items-center lg:justify-center"
