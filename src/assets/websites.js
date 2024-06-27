@@ -15,6 +15,15 @@ import pinia from './pinia.png'
 import github from './github.png'
 import chartjs from './chartjs.png'
 import midtrans from './midtrans.png'
+import python from './icons/python.svg'
+import streamlit from './icons/streamlit.svg'
+import pandas from './icons/pandas.svg'
+import matplotlib from './icons/matplotlib.png'
+import folium from './icons/folium.svg'
+import markdown from './icons/markdown.png'
+import html from './icons/html.png'
+import streamlit1 from './streamlit.png'
+import streamlit2 from './streamlit2.png'
 
 const websites = [
   {
@@ -48,6 +57,22 @@ const websites = [
     duration: '3 Months',
     techUsed: [node, javascript, vue, tailwind, pinia, github],
     techUsedName: ["Node JS", "Javascript", "Vue", "Tailwind", "Pinia", "Github",]
+  },
+  {
+    name: 'Streamlit Sandbox',
+    year: 2024,
+    url: 'https://ario-sandbox.streamlit.app/',
+    description:
+      `Learning python by creating a streamlit app where I tried some of it's features. The main highlight of the app is the 'Map' page where I plot some dummy bank branches on a map using folium, and then customize the color of the pin based on their performance.`,
+    short_description: 'Private project where I explore Python with Streamlit and Folium',
+    image: streamlit1,
+    image2: streamlit2,
+    client: 'Personal',
+    role: 'Front-end Engineer',
+    industry: 'Finance',
+    duration: '3 days',
+    techUsed: [python, streamlit, pandas, matplotlib, folium, html, markdown ],
+    techUsedName: ["Python", "Streamlit", "Pandas", "Matplotlib", "Folium", "HTML5","Markdown"]
   },
   {
     name: 'Company Clone',
