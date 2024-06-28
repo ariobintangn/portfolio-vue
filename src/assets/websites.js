@@ -107,7 +107,8 @@ const websites = [
     techUsedName: ["Node JS", "Javascript", "Vue", "Tailwind", "Github"]
   },
   {
-    name: 'IRWAN AND CLAUDIA (DOWN)',
+    name: 'IRWAN AND CLAUDIA',
+    note: '(DOWN)',
     year: 2022,
     url: 'https://irwanclaudia.com/',
     description:
@@ -123,7 +124,8 @@ const websites = [
     techUsedName: ["Node JS", "Javascript", "Vue", "Tailwind", "Pinia", "Github",]
   },
   {
-    name: 'MET Museum (DOWN)',
+    name: 'MET Museum',
+    note: '(Back-End DOWN)',
     year: 2022,
     url: 'https://ario-met-digital-2.web.app/',
     description:

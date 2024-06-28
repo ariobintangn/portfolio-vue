@@ -40,7 +40,7 @@ export default {
       >
         <div class="flex flex-col gap-1 transition-all group duration-200">
           <h1 class="bg-gradient-to-l from-transparent to-[#323232B2] bg-opacity-40 text-lg font-medium">
-            {{ website.name }}
+            {{ website.name }} <span class=" italic font-semibold text-yellow-500">{{ website.note }}</span>
           </h1>
           <p class="text-[12px] pt-1 pb-2">
           {{ website.year }}
